@@ -1,10 +1,10 @@
 # HTML-practice
-This repository contains my HTML practice work as I learn web deveoplement basics.
+This repository contains my HTML practice work as I learn web developement basics.
 
-## Files Included:
+## Files Included
 1. index.html (Basic HTML Structure with heading and paragraph)
 
-## Topic covered:
+## Topic covered
 1. HTML basic structure
 2. Heading
 3. Paragraph
