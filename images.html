@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image practice</title>
+</head>
+<body>
+    <h2>Task 1 (Simple Image)</h2>
+    <img src="developer1.jpg">
+    <br>
+    <h2>Task 2 (Image with alt attribute)</h2>
+    <img src="developr2.jpg" alt="Developer">
+    <br>
+    <h2>Task 3 (Image with width and height)</h2>
+    <img src="developer3.jpg" alt="Developer" width="200px" height="200px">
+    <br>
+    <h2>Task 4 (Image with border)</h2>
+    <img src="developer4.png" alt="Developer" style="border: 2px solid blue;">
+    <br>
+    <h2>Task 5 (CLickable image)</h2>
+    <a href="https://www.w3schools.com"><img src="developer5.jpg" alt="w3school website link"></a>
+    <br>
+    <h2>Task 6 (Multiple images)</h2>
+    <img src="developer1.jpg">
+    <img src="developer2.jpg">
+    <img src="developer3.jpg">
+    <br>
+    <h2>Task 7 (Image with caption)</h2>
+    <figure>
+        <img src="developer1.jpg" alt="Deveopler image">
+        <figcaption>This is a developer image.</figcaption>
+    </figure>
+    <br>
+    <h2>Task 8 (Backgroung image)</h2>
+    <p style="background-image: url('developer1.jpg'); font-weight: bold; color: aliceblue;">I am vaishanvi maske. I am a second year BCA student. I am learning Web development. <br>
+    i study in Modern college of arts, science and commerce, ganeshkhind pune. <br>
+    i love coding so much.</p>
+    <br>
+    <h2>Task 9 (Image with title)</h2>
+    <img src="developer2.jpg" alt="Developer" title="This is a Developer image">
+    <br>
+    <h1>Task 10 (Responsive image)</h1>
+    <picture>
+        <source srcset="developer4.jpg" media="(min-width: 600px)">
+        <source srcset="developer3.jpg" media="(min-width: 500px)">
+        <source srcset="developer2.jpg" media="(min-width: 400px)">
+        <source srcset="developer1.jpg" media="(min-width: 300px)">
+        <img src="developer5.jpg" alt="Developer">
+    </picture>
+    <br>
+    <h2>Task 11 (Image map)</h3>
+    <img src="developer4.png" alt="Developer" usemap="#developer">
+    <map name="developer">
+        <area shape="circle" coords="107,15,5" href="image map infomation/HTML.html">
+        <p>click <b>HTML</b> on image to know about HTML.</p>
+        <area shape="circle" coords="195,104,5" href="image map infomation/CSS.html">
+        <p>click <b>CSS</b> on image to know about CSS.</p>
+    </map>
+</body>
+</html>
